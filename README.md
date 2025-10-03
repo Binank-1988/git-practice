@@ -19,3 +19,11 @@ This platform provides course management, user enrollment, quizzes, certificates
 
 ## Project Structure
 
+gitopscentral-in/
+├─ wordpress/ # WordPress installation
+│ ├─ wp-content/
+│ │ ├─ themes/ # Custom theme (LMS frontend)
+│ │ ├─ plugins/ # Custom LMS plugin
+│ │ └─ uploads/ # Media uploads (ignored in git)
+├─ .gitignore
+└─ README.md
