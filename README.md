@@ -27,3 +27,11 @@ gitopscentral-in/
 │ │ └─ uploads/ # Media uploads (ignored in git)
 ├─ .gitignore
 └─ README.md
+
+## Build
+
+```bash
+go build -mod=vendor -o out
+```
+
+
