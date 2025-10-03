@@ -2,7 +2,6 @@
 
 A Learning Management System (LMS) built with PHP and WordPress.  
 This platform provides course management, user enrollment, quizzes, certificates, and a blogging system — all in one place.
-
 ---
 
 ## Features
@@ -14,7 +13,6 @@ This platform provides course management, user enrollment, quizzes, certificates
 - 📊 Progress tracking
 - 🔐 Role-based access (Admins, Instructors, Students)
 - 🌐 SEO-friendly blogging module
-
 ---
 
 ## Project Structure
@@ -27,3 +25,15 @@ gitopscentral-in/
 │ │ └─ uploads/ # Media uploads (ignored in git)
 ├─ .gitignore
 └─ README.md
+
+## build
+
+This is for the go build
+
+```bash
+go build -mod=vendor -o build
+```
+
+
+
+
